@@ -22,6 +22,7 @@ ApplicationWindow {
     }
 
     Text {
+        objectName: 'textbox'
         text: qsTr("Hello World")
         anchors.centerIn: parent
     }
